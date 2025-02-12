@@ -16,3 +16,13 @@ To run locally:
 ``
 npm run dev
 ``
+
+To build locally:
+
+``
+npm run build
+``
+
+## Links
+
+[Link to Github-Pages](https://yegorsid.github.io/cv/)

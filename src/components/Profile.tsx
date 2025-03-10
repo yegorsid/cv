@@ -39,6 +39,7 @@ function Profile(){
       <Flex gap={'10px'} flexDirection={'column'}>
         <Heading size='3xl' paddingBottom={'10px'}>{t("experience.title")}</Heading>
         <Heading>Chronicle Software Ltd.</Heading>
+        <Heading fontStyle={'italic'}>{t("experience.time")}</Heading>
         <Text fontWeight='bold'>React Developer</Text>
         <Text>{t("experience.chronicleDescription1")}</Text>
         <Text>{t("experience.done")}</Text>
@@ -53,13 +54,16 @@ function Profile(){
           <List.Item>{t("experience.chronicleItem8")}</List.Item>
           <List.Item>{t("experience.chronicleItem9")}</List.Item>
           <List.Item>{t("experience.chronicleItem10")}</List.Item>
+          <List.Item>{t("experience.chronicleItem11")}</List.Item>
         </List.Root>
         <Text>{t("experience.chronicleDescription2")}</Text>
         <Text>{t("experience.done")}</Text>
         <List.Root>
-          <List.Item>{t("experience.chronicleItem11")}</List.Item>
           <List.Item>{t("experience.chronicleItem12")}</List.Item>
           <List.Item>{t("experience.chronicleItem13")}</List.Item>
+          <List.Item>{t("experience.chronicleItem14")}</List.Item>
+          <List.Item>{t("experience.chronicleItem15")}</List.Item>
+          <List.Item>{t("experience.chronicleItem16")}</List.Item>
         </List.Root>
       </Flex>
       <Flex gap={'10px'} flexDirection={'column'}>
